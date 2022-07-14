@@ -52,6 +52,7 @@ a {
 div.div1 {
     background-color: #1F2937;
     display: flex;
+    gap: 10px;
 }
 div.div2 {
     background-color: white;
@@ -65,14 +66,25 @@ div.div4 {
 
 section.left-main {
     color: white;
-    flex-basis: 550px;
-    height: 75%;
+    flex-basis: 40%;
+    height: 55%;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
 }
 section.right-main {
     background-color: gray;
-    flex-basis: 550px;
-    height: 75%;
+    flex-basis: 400px;
+    height: 55%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 .article {
     color: #9398a0;
+}
+.main-head {
+    font-size: 48px;
+    margin: 0px;
 }
