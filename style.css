@@ -5,12 +5,14 @@ body {
     border: 0;
 }
 
+/*styling for main page content*/
 container.main-content {
     display: flex;
     flex-direction: column;
     height: 100vh;
 }
 
+/*code for header*/
 header {
     display: flex;
     background-color: #1F2937;
@@ -19,7 +21,7 @@ header {
 header > ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     margin-right: 48px;
     margin-left: auto;
     margin-top: 0px;
@@ -35,7 +37,7 @@ header > p {
     margin-bottom: 0px;
 }
 a {
-    color: #E5E7EB;
+    color: #9398a0;
     text-decoration: none;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -43,12 +45,13 @@ a {
 
 .main-content div {
     flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 div.div1 {
     background-color: #1F2937;
     display: flex;
-    width: 100vw;
 }
 div.div2 {
     background-color: white;
@@ -62,11 +65,14 @@ div.div4 {
 
 section.left-main {
     color: white;
-    width: 100%;
-    flex: 1 1 auto;
+    flex-basis: 550px;
+    height: 75%;
 }
 section.right-main {
     background-color: gray;
-    width: 100%;
-    flex: 1 1 auto;
+    flex-basis: 550px;
+    height: 75%;
+}
+.article {
+    color: #9398a0;
 }
