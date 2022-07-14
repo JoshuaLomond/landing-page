@@ -67,14 +67,14 @@ div.div4 {
 section.left-main {
     color: white;
     flex-basis: 40%;
-    height: 55%;
+    height: 60%;
     font-family: 'Roboto', sans-serif;
     text-align: left;
 }
 section.right-main {
     background-color: gray;
     flex-basis: 400px;
-    height: 55%;
+    height: 60%;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
@@ -85,6 +85,13 @@ section.right-main {
     color: #9398a0;
 }
 .main-head {
-    font-size: 48px;
+    font-size: 32px;
     margin: 0px;
+}
+.div2 > p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 15px;
 }
