@@ -95,3 +95,17 @@ section.right-main {
     margin: 0;
     margin-top: 15px;
 }
+
+div.info-container {
+    display: flex;
+    text-align: center;
+    width: 75%;
+}
+div.info-child {
+    
+}
+div.image {
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+}
