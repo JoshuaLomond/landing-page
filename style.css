@@ -93,19 +93,29 @@ section.right-main {
     text-align: center;
     font-size: 24px;
     margin: 0;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 div.info-container {
     display: flex;
     text-align: center;
-    width: 75%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 25px 0px 25px;
 }
 div.info-child {
-    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    flex-direction: column;
 }
 div.image {
     height: 150px;
     width: 150px;
     background-color: gray;
+}
+p.info {
+    width: 55%;
 }
