@@ -196,3 +196,15 @@ p.signup2 {
     border: 2px solid white;
     border-radius: 5px;
 }
+
+/*footer*/
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
