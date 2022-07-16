@@ -166,6 +166,15 @@ p.signature {
 div.div4 {
     background-color: white;
     display: flex;
+    height: 185px;
+}
+div.call-container {
+    display: flex;
+    background-color: #3882F6;
+    max-width: fit-content;
+    padding: 5px 80px 5px 80px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
 }
 p.signup2 {
     width: 100px;
