@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: #E5E7EB;
 }
 
 /*styling for main page content*/
@@ -49,6 +50,7 @@ a {
     justify-content: center;
 }
 
+/* div 1 styling*/
 div.div1 {
     background-color: #1F2937;
     display: flex;
@@ -57,12 +59,7 @@ div.div1 {
 }
 div.div2 {
     background-color: white;
-}
-div.div3 {
-    background-color: #E5E7EB;
-}
-div.div4 {
-    background-color: white;
+    padding-bottom: 10px;
 }
 
 section.left-main {
@@ -73,10 +70,10 @@ section.left-main {
     text-align: left;
 }
 section.right-main {
-    margin-top: 30px;
+    margin-top: 15px;
     background-color: gray;
     flex-basis: 400px;
-    height: 80%;
+    height: 85%;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
@@ -90,6 +87,8 @@ section.right-main {
     font-size: 32px;
     margin: 0px;
 }
+
+/*div 2 styling*/
 .div2 > p {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -125,4 +124,22 @@ p.info {
     color: #9398a0;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
+}
+
+/*div 3 styling*/
+div.div3 {
+    background-color: #E5E7EB;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+p.quote {
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    color: #1F2937;
+    font-style: italic;
+}
+p.signature {
+
 }
