@@ -53,6 +53,7 @@ div.div1 {
     background-color: #1F2937;
     display: flex;
     gap: 10px;
+    padding-bottom: 35px;
 }
 div.div2 {
     background-color: white;
@@ -72,9 +73,10 @@ section.left-main {
     text-align: left;
 }
 section.right-main {
+    margin-top: 30px;
     background-color: gray;
     flex-basis: 400px;
-    height: 60%;
+    height: 80%;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
@@ -93,7 +95,7 @@ section.right-main {
     text-align: center;
     font-size: 24px;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 div.info-container {
@@ -102,7 +104,7 @@ div.info-container {
     width: auto;
     justify-content: center;
     align-items: center;
-    padding: 45px 25px 0px 25px;
+    padding: 35px 25px 0px 25px;
 }
 div.info-child {
     display: flex;
@@ -114,8 +116,13 @@ div.info-child {
 div.image {
     height: 150px;
     width: 150px;
-    background-color: gray;
+    border: 3px solid #3882F6;
+    border-radius: 25px;
 }
 p.info {
-    width: 55%;
+    padding-top: 5px;
+    width: 75%;
+    color: #9398a0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
 }
