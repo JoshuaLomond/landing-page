@@ -38,10 +38,13 @@ header > p {
     margin-bottom: 0px;
 }
 a {
-    color: #9398a0;
+    color: white;
     text-decoration: none;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+}
+a.head-links {
+    color: #9398a0;
 }
 
 .main-content div {
@@ -141,7 +144,8 @@ div.div3 {
     text-align: left;
     width: 70%;
     margin: auto;
-    padding: 20px 0px 20px 0px;
+    padding: 35px 0px 45px 0px;
+    position: relative;
 }
 p.quote {
     font-family: "Roboto", sans-serif;
@@ -150,5 +154,10 @@ p.quote {
     font-style: italic;
 }
 p.signature {
-
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
 }
