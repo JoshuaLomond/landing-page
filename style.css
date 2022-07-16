@@ -170,11 +170,21 @@ div.div4 {
 }
 div.call-container {
     display: flex;
+    gap: 150px;
     background-color: #3882F6;
-    max-width: fit-content;
+    min-width: fit-content;
+    max-width: 70%;
     padding: 5px 80px 5px 80px;
     border: 1px solid #3882F6;
     border-radius: 5px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+p.call-head {
+    font-size: 16px;
+}
+p.call-info {
+    font-size: 12px;
 }
 p.signup2 {
     width: 100px;
